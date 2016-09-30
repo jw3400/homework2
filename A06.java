@@ -4,6 +4,7 @@ class A06 {
 	void input() {
 
 		Scanner s = new Scanner(System.in);
+		System.out.println("---------------------");
 		System.out.print("이름 : ");
 		String name = s.nextLine();
 		
@@ -53,6 +54,7 @@ class A06 {
 			num = "F";
 
 		System.out.print("학점은 " + num + " 입니다.");
+		System.out.print("--------------------------");
 
 	}
 
