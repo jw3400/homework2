@@ -34,7 +34,7 @@ class A06 {
 	double cal(int total){
 
 		double avg = 0;
-		avg = total / 3;
+		avg = total / 3.0;
 		return avg;
 
 	}
